@@ -1,0 +1,2 @@
+  local msg = "su 8591"
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
